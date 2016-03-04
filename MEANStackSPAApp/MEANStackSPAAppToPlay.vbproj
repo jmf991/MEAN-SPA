@@ -3046,11 +3046,12 @@
     <Content Include="public\css\style.css" />
     <Content Include="public\index.html" />
     <Content Include="public\js\appDirectives.js" />
-    <Content Include="public\js\controllers\GeekCtrl.js" />
-    <Content Include="public\js\controllers\TronxCtrl.js" />
-    <Content Include="public\js\services\GeekService.js" />
+    <Content Include="public\components\geek\GeekCtrl.js" />
+    <Content Include="public\components\tronx\TronxCtrl.js" />
+    <Content Include="public\components\tronx\tronxOpcion1\TronxOpcion1Ctrl.js" />
+    <Content Include="public\components\tronx\tronxOpcion2\tronxOpcion2Ctrl.js" />
+    <Content Include="public\components\tronx\tronxOpcion3\tronxOpcion3Ctrl.js" />
     <Content Include="public\js\services\NerdService.js" />
-    <Content Include="public\js\services\TronxService.js" />
     <Content Include="public\libs\gstring\gstring.css" />
     <Content Include="preset_folders\Areas\HelpPage\HelpPage.css" />
     <Content Include="config\db.js" />
@@ -5217,9 +5218,8 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="public\js\app.js" />
     <Content Include="public\js\appRoutes.js" />
-    <Content Include="public\js\controllers\MainCtrl.js" />
-    <Content Include="public\js\controllers\NerdCtrl.js" />
-    <Content Include="public\js\services\NerdServices.js" />
+    <Content Include="public\components\main\MainCtrl.js" />
+    <Content Include="public\components\nerd\NerdCtrl.js" />
     <Content Include="public\libs\angular-route\angular-route.js" />
     <Content Include="public\libs\angular-route\angular-route.min.js" />
     <Content Include="public\libs\angular-route\index.js" />
@@ -5375,10 +5375,13 @@
     <Content Include="public\libs\jquery\src\var\support.js" />
     <Content Include="public\libs\jquery\src\var\toString.js" />
     <Content Include="public\libs\jquery\src\wrap.js" />
-    <Content Include="public\views\geek.html" />
-    <Content Include="public\views\home.html" />
-    <Content Include="public\views\nerd.html" />
-    <Content Include="public\views\tronx.html" />
+    <Content Include="public\components\geek\geek.html" />
+    <Content Include="public\components\main\home.html" />
+    <Content Include="public\components\nerd\nerd.html" />
+    <Content Include="public\components\tronx\tronx.html" />
+    <Content Include="public\components\tronx\tronxOpcion1\TronxOpcion1.html" />
+    <Content Include="public\components\tronx\tronxOpcion2\tronxOpcion2.html" />
+    <Content Include="public\components\tronx\tronxOpcion3\tronxOpcion3.html" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -5446,6 +5449,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="preset_folders\App_Data\" />
+    <Folder Include="public\js\controllers\" />
+    <Folder Include="public\views\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

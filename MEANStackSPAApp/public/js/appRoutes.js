@@ -4,24 +4,38 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 
 		// home page
 		.when('/', {
-		    templateUrl: 'views/home.html',
+		    templateUrl: 'components/main/home.html',
 		    controller: 'MainController'
 		})
 
 		.when('/nerds', {
-		    templateUrl: 'views/nerd.html',
+		    templateUrl: 'components/nerd/nerd.html',
 		    controller: 'NerdController'
 		})
 
 		.when('/geeks', {
-		    templateUrl: 'views/geek.html',
+		    templateUrl: 'components/geek/geek.html',
 		    controller: 'GeekController'
 		})
 
 	    .when('/tronxs', {
-	        templateUrl: 'views/tronx.html',
+	        templateUrl: 'components/tronx/tronx.html',
 	        controller: 'TronxController'
-	});
+	    })
+
+    .when('/tronxsOpcion1', {
+        templateUrl: 'components/tronx/TronxOpcion1/TronxOpcion1.html',
+        controller: 'TronxOpcion1Controller'
+    })
+
+    .when('/tronxsOpcion2', {
+        templateUrl: 'components/tronx/TronxOpcion2/tronxOpcion2.html',
+        controller: 'tronxOpcion2Controller'
+    })
+        .when('/tronxsOpcion3', {
+            templateUrl: 'components/tronx/TronxOpcion3/tronxOpcion3.html',
+            controller: 'tronxOpcion3Controller'
+        });
 
     $locationProvider.html5Mode(true);
 
