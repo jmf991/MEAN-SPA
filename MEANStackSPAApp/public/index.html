@@ -1,50 +1,81 @@
 ﻿<!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<base href="/">
-
-	<title>Starter Node and Angular</title>
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
-
-	<!-- JS -->
-	<script src="libs/angular/angular.min.js"></script>
-	<script src="libs/angular-route/angular-route.min.js"></script>
-
-	<!-- ANGULAR CUSTOM -->
-	<script src="components/main/MainCtrl.js"></script>
+    <meta charset="UTF-8">
+    <base href="/">
+    <title>Starter Node and Angular App</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
+    <!-- JS -->
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/angular-route/angular-route.min.js"></script>
+    <!-- ANGULAR CUSTOM -->
+    <script src="components/main/MainCtrl.js"></script>
+    <script src="components/sidebar/sidebarCtrl.js"></script>
     <script src="components/nerd/NerdCtrl.js"></script>
-	<script src="js/services/NerdService.js"></script>
-	<script src="components/geek/GeekCtrl.js"></script>	
-    <script src="components/tronx/tronxCtrl.js"></script> 
-    <script src="components/tronx/Tronxopcion1/TronxOpcion1Ctrl.js"></script>    
-    <script src="components/tronx/tronxOpcion2/tronxOpcion2Ctrl.js"></script>   
-    <script src="components/tronx/tronxOpcion3/tronxOpcion3Ctrl.js"></script> 
-	<script src="js/appRoutes.js"></script>
-	<script src="js/app.js"></script>
+    <script src="js/services/NerdService.js"></script>
+    <script src="components/geek/GeekCtrl.js"></script>
+    <script src="components/tronx/tronxCtrl.js"></script>
+    <script src="components/tronx/Tronxopcion1/TronxOpcion1Ctrl.js"></script>
+    <script src="components/tronx/tronxOpcion2/tronxOpcion2Ctrl.js"></script>
+    <script src="components/tronx/tronxOpcion3/tronxOpcion3Ctrl.js"></script>
+    <script src="components/other/otherCtrl.js"></script>
+    <!-- Sidebar items-->
+    <script src="components/admin/adminCtrl.js"></script>
+    <script src="components/archivos/archivosCtrl.js"></script>
+    <script src="components/ficheros/ficherosCtrl.js"></script>
+    <script src="components/usuarios/usuariosCtrl.js"></script>
+    <script src="components/home/homeCtrl.js"></script>
+    <!-- / Sidebar items-->
+    <script src="js/appRoutes.js"></script>
+      <script src="js/app.js"></script>
+    <!-- / ANGULAR CUSTOM -->
 </head>
-<body ng-app="sampleApp" ng-controller="NerdController">
-<div class="container">
-	
-	<!-- HEADER -->
-	<nav class="navbar navbar-inverse">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="/">Stencil: Node and Angular</a>
-		</div>
-        <!-- LINK TO OUR PAGES. ANGULAR HANDLES THE ROUTING HERE -->
-		<ul class="nav navbar-nav">
-			<li><a href="/nerds">Nerds</a></li>
-			<li><a href="/geeks">Geeks</a></li>
-            <li><a href="/tronxs">Tronx</a></li>
-		</ul>
-	</nav>
+<body>
+    <div class="container">
 
-	<!-- ANGULAR DYNAMIC CONTENT -->
-	<div ng-view></div>
+        <div ng-app="sampleApp" ng-controller="NerdController">
+            <!-- HEADER -->
+            <div class="box-12">
+                <div class="inner">
+                    <nav class="navbar navbar-inverse">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="/">Node and Angular App</a>
+                        </div>
+                        <!-- LINK TO OUR PAGES. ANGULAR HANDLES THE ROUTING HERE -->
+                        <ul class="nav navbar-nav">
+                            <li><a href="/nerds">Nerds</a></li>
+                            <li><a href="/geeks">Geeks</a></li>
+                            <li><a href="/tronxs">Tronx</a></li>
+                            <li><a href="/others">other</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- / HEADER -->
+            <!-- ANGULAR DYNAMIC CONTENT -->
+            <div class="box-12">
+                <div class="box-2">
+                    <div class="inner">
+                        <ul class="nav navbar-nav sidebar">
+                            <li class="navigation-items"><a href="/home"><strong>Home</strong></a></li>
+                            <li class="navigation-items"><a href="/usuarios"><strong>Usuarios</strong></a></li>
+                            <li class="navigation-items"><a href="/ficheros"><strong>Ficheros</strong></a></li>
+                            <li class="navigation-items"><a href="/admin"><strong>Admin</strong></a></li>
+                            <li class="navigation-items"><a href="/archivos"><strong>Archivos</strong></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-10">
+                    <div class="inner">
+                        <div ng-view></div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
 
-</div>
 </body>
 </html>

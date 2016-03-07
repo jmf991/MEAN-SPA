@@ -1,1 +1,1 @@
-angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'NerdCtrl', 'NerdService', 'GeekCtrl', 'TronxCtrl', 'TronxOpcion1Ctrl', 'tronxOpcion2Ctrl', 'tronxOpcion3Ctrl', ]);
+angular.module('sampleApp', ['ngRoute', 'appRoutes', 'otherCtrl', 'MainCtrl', 'NerdCtrl', 'NerdService', 'GeekCtrl', 'TronxCtrl', 'TronxOpcion1Ctrl', 'tronxOpcion2Ctrl', 'tronxOpcion3Ctrl', 'adminCtrl', 'archivosCtrl', 'ficherosCtrl', 'homeCtrl', 'usuariosCtrl',  ]);
