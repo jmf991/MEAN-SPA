@@ -3046,8 +3046,7 @@
     <Content Include="public\components\archivos\archivosCtrl.js" />
     <Content Include="public\components\ficheros\ficheros.html" />
     <Content Include="public\components\ficheros\ficherosCtrl.js" />
-    <Content Include="public\components\main\authApp.js" />
-    <Content Include="public\components\main\userInfoCtrl.js" />
+    <Content Include="public\components\login\authApp.js" />
     <Content Include="public\components\usuarios\usuarios.html" />
     <Content Include="public\components\usuarios\usuariosCtrl.js" />
     <Content Include="public\components\home\home.html" />
@@ -5229,7 +5228,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="public\js\app.js" />
     <Content Include="public\js\appRoutes.js" />
-    <Content Include="public\components\main\MainCtrl.js" />
+    <Content Include="public\components\login\loginCtrl.js" />
     <Content Include="public\components\nerd\NerdCtrl.js" />
     <Content Include="public\libs\angular-route\angular-route.js" />
     <Content Include="public\libs\angular-route\angular-route.min.js" />
@@ -5387,7 +5386,7 @@
     <Content Include="public\libs\jquery\src\var\toString.js" />
     <Content Include="public\libs\jquery\src\wrap.js" />
     <Content Include="public\components\geek\geek.html" />
-    <Content Include="public\components\main\authPage.html" />
+    <Content Include="public\components\login\loginPage.html" />
     <Content Include="public\components\nerd\nerd.html" />
     <Content Include="public\components\tronx\tronx.html" />
     <Content Include="public\components\tronx\tronxOpcion1\TronxOpcion1.html" />

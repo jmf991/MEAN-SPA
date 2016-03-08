@@ -4,8 +4,8 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 
 		// home page
 		.when('/', {
-		    templateUrl: 'components/main/authPage.html',
-		    controller: 'MainController'
+		    templateUrl: 'components/login/loginPage.html',
+		    controller: 'loginController'
 		})
 
 		.when('/nerds', {
