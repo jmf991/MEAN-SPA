@@ -87,3 +87,9 @@ E:\source\Projects\Angular projects\MEANStackSPAAppToPlay3\MEANStackSPAApp\obj\D
 E:\source\Projects\Angular projects\MEANStackSPAAppToPlay3\MEANStackSPAApp\obj\Debug\MEANStackSPAApp.dll
 E:\source\Projects\Angular projects\MEANStackSPAAppToPlay3\MEANStackSPAApp\obj\Debug\MEANStackSPAApp.xml
 E:\source\Projects\Angular projects\MEANStackSPAAppToPlay3\MEANStackSPAApp\obj\Debug\MEANStackSPAApp.pdb
+E:\source\Projects\Angular projects\MEANStackSPA\MEANStackSPAAppToPlay\MEANStackSPAApp\obj\Debug\MEANStackSPAAppToPlay.vbprojResolveAssemblyReference.cache
+E:\source\Projects\Angular projects\MEANStackSPA\MEANStackSPAAppToPlay\MEANStackSPAApp\obj\Debug\MEANStackSPAApp.Resources.resources
+E:\source\Projects\Angular projects\MEANStackSPA\MEANStackSPAAppToPlay\MEANStackSPAApp\obj\Debug\MEANStackSPAAppToPlay.vbproj.GenerateResource.Cache
+E:\source\Projects\Angular projects\MEANStackSPA\MEANStackSPAAppToPlay\MEANStackSPAApp\obj\Debug\MEANStackSPAApp.dll
+E:\source\Projects\Angular projects\MEANStackSPA\MEANStackSPAAppToPlay\MEANStackSPAApp\obj\Debug\MEANStackSPAApp.xml
+E:\source\Projects\Angular projects\MEANStackSPA\MEANStackSPAAppToPlay\MEANStackSPAApp\obj\Debug\MEANStackSPAApp.pdb

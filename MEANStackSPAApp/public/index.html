@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <base href="/">
-    <title>Starter Node and Angular App</title>
+    <title>MEAN App</title>
     <!-- CSS -->
     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
@@ -12,7 +12,6 @@
     <script src="libs/angular-route/angular-route.min.js"></script>
     <!-- ANGULAR CUSTOM -->
     <script src="components/main/MainCtrl.js"></script>
-    <script src="components/sidebar/sidebarCtrl.js"></script>
     <script src="components/nerd/NerdCtrl.js"></script>
     <script src="js/services/NerdService.js"></script>
     <script src="components/geek/GeekCtrl.js"></script>
@@ -28,27 +27,30 @@
     <script src="components/usuarios/usuariosCtrl.js"></script>
     <script src="components/home/homeCtrl.js"></script>
     <!-- / Sidebar items-->
+    <!-- Authentication JS-->
+    <script src="components/main/authApp.js"></script>
+    <script src="components/main/userInfoCtrl.js"></script>
+    <!-- / Authentication JS-->
     <script src="js/appRoutes.js"></script>
       <script src="js/app.js"></script>
     <!-- / ANGULAR CUSTOM -->
 </head>
 <body>
     <div class="container">
-
         <div ng-app="sampleApp" ng-controller="NerdController">
             <!-- HEADER -->
             <div class="box-12">
                 <div class="inner">
                     <nav class="navbar navbar-inverse">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="/">Node and Angular App</a>
+                            <a class="navbar-brand" href="/">NuestraApp</a>
                         </div>
                         <!-- LINK TO OUR PAGES. ANGULAR HANDLES THE ROUTING HERE -->
                         <ul class="nav navbar-nav">
                             <li><a href="/nerds">Nerds</a></li>
                             <li><a href="/geeks">Geeks</a></li>
                             <li><a href="/tronxs">Tronx</a></li>
-                            <li><a href="/others">other</a></li>
+                            <li><a href="/others">Other</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -61,9 +63,9 @@
                         <ul class="nav navbar-nav sidebar">
                             <li class="navigation-items"><a href="/home"><strong>Home</strong></a></li>
                             <li class="navigation-items"><a href="/usuarios"><strong>Usuarios</strong></a></li>
-                            <li class="navigation-items"><a href="/ficheros"><strong>Ficheros</strong></a></li>
                             <li class="navigation-items"><a href="/admin"><strong>Admin</strong></a></li>
-                            <li class="navigation-items"><a href="/archivos"><strong>Archivos</strong></a></li>
+                            <li class="navigation-items"><a href="/ficheros"><strong>Ficheros</strong></a></li>                            
+                            <li class="navigation-items"><a href="/archivos"><strong>Archivos</strong></a></li>                            
                         </ul>
                     </div>
                 </div>

@@ -205,3 +205,23 @@ body { padding-top:30px; }
 .input{ 
     margin-left: 10px !important;
 }
+
+
+/*effects*/
+.shadow { -webkit-box-shadow: 10px 10px 10px 10px #000; -moz-box-shadow: 10px 10px 10px 10px #000; box-shadow: 10px 10px 10px 10px #000; behavior: url(/assets/pie/pie.htc); }
+.radius { -webkit-border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; behavior: url(/assets/pie/pie.htc); }
+
+.global-border { border: 1px solid  black;}
+
+/********** START FONT **********/
+
+h1, .h1 { font-size: 64px; line-height: 70px; }
+h2, .h2 { font-size: 44px; line-height: 48px;  }
+h3, .h3 { font-size: 36px; line-height: 40px;  }
+h4, .h4 { font-size: 32px; line-height: 36px;  }
+h5, .h5 { font-size: 24px; line-height: 28px;  }
+h6, .h6 { font-size: 20px; line-height: 24px;  }
+
+a { text-decoration: none; }
+a:hover, a:focus, a.active { text-decoration: underline; color: $active-color;   @extend .smooth-transition  }
+/********** END FONT **********/
